@@ -24,5 +24,5 @@ Windows.click(findWindowsObject('Object Repository/Button'))
 
 Windows.click(findWindowsObject('Object Repository/ListItem'))
 
-WebUI.takeAreaScreenshotAsCheckpoint('work', null)
+WebUI.takeScreenshot('work', FailureHandling.STOP_ON_FAILURE)
 
