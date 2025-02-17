@@ -50,7 +50,7 @@ WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/tex
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
 
-WebUI.takeScreenshotAsCheckpoint('Appointment')
+WebUI.takeScreenshotAsCheckpoint('appointment_conf')
 
 WebUI.closeBrowser()
 
