@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>0ef6b9a7-3958-4e7c-a4a1-093ecf763825</testSuiteGuid>
    <testCaseLink>
-      <guid>0e8f32ac-c082-4cc5-8a68-83eb187cda00</guid>
+      <guid>869edf6b-68fc-4c2b-a360-81077434be56</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/web</testCaseId>
