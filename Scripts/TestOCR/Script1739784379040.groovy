@@ -18,8 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Windows.startApplicationWithTitle('C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Foxit PDF Reader\\Foxit PDF Reader.lnk', 
-    'Start - Foxit PDF Reader')
+    '')
 
+Windows.click(findWindowsObject('Object Repository/Button'))
 
-WebUI.takeScreenshotAsCheckpoint('work', [])
+Windows.click(findWindowsObject('Object Repository/ListItem'))
+
+WebUI.takeAreaScreenshotAsCheckpoint('work', null)
 
